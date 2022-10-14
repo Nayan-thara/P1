@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Bitter:ital,wght@1,300&family=Comforter+Brush&family=Dancing+Script&family=Explora&family=Lora&family=Passions+Conflict&family=Playfair+Display&family=Satisfy&display=swap');
+
+header {
+    height: 130px;
+    width: 100%;
+    /* position: sticky;
+    top: 0px; */
+    /* background-color:rgb(178, 72, 72); */
+}
+
+.d-1 {
+    height: 10px;
+    width: 100%;
+    background-color: darkgreen;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: sticky;
+    top: 0px;
+    /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+}
+/* .main{
+    width: 100%;
+    height: 40px;
+    margin-top: -60px;
+} */
+.d-1-1 {
+    width: 100%;
+    height: 40px;
+    margin-top: -115px;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url("./cofee/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20px;
+    left: 255px;
+}
+
+
+
+/* .loc {
+    color: darkgreen;
+    margin-top: -20px;
+    margin-left: 15px;
+} */
+
+
+
+/* .loc:hover,
+.fa-solid:hover {
+    color: rgba(0, 100, 0, 0.432);
+
+} */
+
+#c1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    left: 1100px;
+    /* background-color: cyan; */
+    color: darkgreen;
+
+}
+#c1:hover{
+    color:rgb(19, 45, 19);
+
+}
+.navigation {
+    width: 50%;
+    height: 20px;
+    /* background-color: aquamarine; */
+    margin-top: 68px;
+    margin-left: 335px;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.d-2 {
+    width: 100%;
+    height: 573px;
+    margin-top: 13px;
+    /* background-color: #036635; */
+    background-image: url("./cofee/cofee-4.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 573px;
+    position: relative;
+
+}
+
+.d-2-1 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-image: url("./cofee/history-text_0_0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    top: 125px;
+    left: 620px;
+}
+
+#b1 {
+    font-family: 'Lora', serif;
+    font-size: larger;
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    padding: 3px;
+    color: #036635;
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+    left: 650px;
+    top: 300px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+#b1:hover {
+    color: white;
+    background-color: #036635;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+
+
+
+
+
+.d-3 {
+
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 8px;
+    background-image: url("./cofee/cofee-5.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* filter: blur(8px); */
+    /* backdrop-filter: blur(5px); */
+}
+
+.d-3-1 {
+    width: 354px;
+    height: 370px;
+    top: 21px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: 973px;
+    padding: 20px;
+    box-shadow: 0 16px 32px rgb(0 0 0 / 10%), 0 32px 32px rgb(0 0 0 / 10%);
+}
+
+.d-3-1:hover {
+    box-shadow: 2px 2px 5px rgba(46, 229, 157, 0.4);
+}
+
+#b2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+
+#b2:hover {
+    color: white;
+    background-color: #074ca6;
+}
+
+#b3 {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #36a420;
+    border-color: #36a420;
+    color: white;
+}
+
+#b3:hover {
+    color: darkgreen;
+    background-color: white;
+}
+
+/* .d-3-2{
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #036635;
+} */
+
+#form {
+    color: darkgreen;
+    font-family: 'Lora', serif;
+}
+
+.f1 {
+    text-align: start;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.f2 {
+    text-align: start;
+    width: 100%;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.d-3-2 {
+    width: 950px;
+    height: 350px;
+    top: 40px;
+    background-color:/* white;*/ #107442;
+    position: relative;
+    left: 7px;
+    padding: 5px;
+}
+.d-3-2-1{
+    position: absolute;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    left: 200px;
+}
+.d-3-2-1:hover{
+    text-decoration: underline;
+}
+#aboutus{
+    color: white;
+    /* font-family: 'Satisfy', cursive; */
+    /* text-shadow: 2px 2px 4px #000000; */
+    font-size: 25px;
+    margin-top: 270px;
+    padding: 30px;
+
+}
+
+.d-4{
+    width: 100%;
+    height: 581px;
+    background-color:#f5f5f5ed;
+    position: relative;
+    top: 15px;
+}
+.d-4-1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 20px;
+}
+.d-4-2{
+    position: absolute;
+    width: 1107px;
+    height: 500px;
+    top: 58px;
+    left:375px ;
+    background-color: #036635;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000000;
+}
+.d-4-2-1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.d-4-2-2{
+    width: 350px;
+    height: 397px;
+    background-color: white;
+    position: absolute;
+    left: 273px;
+    top: 49px;
+    padding: 10px;
+    border-radius: 50px;
+    background-image: url("./cofee/creamy-vanilla-milky-shake-with-chocolate-sauce-white-saucer.jpg");
+    background-repeat: no-repeat;
+    background-size:390px 230px ;
+}
+.def1{
+    position: absolute;
+    top: 268px;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 2px 2px 4px #ccc;
+    color: #151816;
+    font-size: larger;
+    left: 32px;
+}
+#b4{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: #036635;
+    background-color: #ffffff;
+    border-color:lightgray;
+    position:absolute;
+    left: 75px;
+    top: 354px;
+}
+#b4:hover{
+    box-shadow: 2px 2px 4px #000000;
+}
+.h2{
+    width: 245px;
+    height: 30px;
+    color: brown;
+    /* background-color: cyan; */
+    position: absolute;
+    top: 222px;
+    left: 108px;
+}
+
+.d-4-2-3{
+    width: 350px;
+    height: 397px;
+    background-color: white;
+    position: absolute;
+    left: 410px;
+    top: 2px;
+    padding: 10px;
+    border-radius: 50px;
+    background-image: url("./cofee/cofee-7.jpg");
+    background-repeat: no-repeat;
+    background-size:390px 230px ;
+}
+.h2-1{
+    width: 245px;
+    height: 30px;
+    color: brown;
+    /* background-color: cyan; */
+    position: absolute;
+    top: 222px;
+    left: 50px;
+}
+
+.d-5{
+    width: 1107px;
+    height: 277px;
+    background-color:  #f5f5f5ed;
+    border-radius: 10px;
+}
+
+.d-6{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-top: 30px;
+    background-color:  #03663462;
+}
+/* .img-1{
+    position: absolute;
+    top:9px;
+    left:20px;
+    width: 234px;
+    height: 232px;
+    background-image: url("./cofee/cofee-9.jpg");
+    background-size: 234px 232px;
+    background-repeat: no-repeat;
+}   */
+/* .img-2{
+    position: absolute;
+    top:9px;
+    left:280px;
+    width: 234px;
+    height: 232px;
+    background-image: url("./cofee/cofee-10.jpg");
+    background-size: 234px 232px;
+    background-repeat: no-repeat;
+} */
+/*
+.img-3{
+    position: absolute;
+    top:9px;
+    left:538px;
+    width: 234px;
+    height: 232px;
+    background-image: url("./cofee/cofee-11.jpg");
+    background-size: 234px 232px;
+    background-repeat: no-repeat;
+}
+.img-4{
+    position: absolute;
+    top:9px;
+    left:795px;
+    width: 234px;
+    height: 232px;
+    background-image: url("./cofee/cofee-12.jpg");
+    background-size: 234px 232px;
+    background-repeat: no-repeat;
+} */
+.img-1{
+    width: 234px;
+    height: 250px;
+    position: absolute;
+    margin-left:20px;
+    background-color:  #03663400;
+
+}
+
+.image1 , .image2 , .image3 , .image4{
+    width: 234px;
+    height: 232px;
+    margin-top: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0px;
+    height: 232px;
+    width: 234px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#036634c1;
+  }
+  
+  .img-1:hover .overlay , .img-2:hover .overlay , .img-3:hover .overlay, .img-4:hover .overlay{
+    opacity: 1;
+    box-shadow: 2px 2px 4px #000000;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.img-2{
+    width: 234px;
+    height: 250px;
+    position: absolute;
+    margin-left:282px;
+    background-color:  #03663400;
+}
+.img-3{
+    width: 234px;
+    height: 250px;
+    position: absolute;
+    margin-left:540px;
+    background-color:  #03663400;
+}
+.img-4{
+    width: 234px;
+    height: 250px;
+    position: absolute;
+    margin-left:799px;
+    background-color:  #03663400;
+}
+
+
+
+
+
+
+
+
+
+.png{
+    background-image:url("./cofee/pngwing1.com.png") ;
+   /* background-color: cadetblue; */
+    position: absolute;
+    top:0px;
+    left:1071px;
+    width: 425px;
+    height: 247px;
+    background-size: 425px 247px;
+    background-repeat: no-repeat;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+
+}
+
+.icons112{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 43%;
+    /* background-color: cyan; */
+}
+.link1-4{
+    color: #000000;
+}
+.link1-4:hover{
+    color: #2d2c2ca9;
+}
+.pp,.tu,.cp,.final{
+    color: #373636a2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pp:hover , .tu:hover , .cp:hover{
+    color: #000000;
+
+}
+
+
